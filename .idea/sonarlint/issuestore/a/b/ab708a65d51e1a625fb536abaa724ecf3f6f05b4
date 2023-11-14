@@ -1,0 +1,24 @@
+
+F
+java:S1066†"/Merge this if statement with the enclosing one.(ß¸é
+>
+java:S16043"(Make this anonymous inner class a lambda(šªÙ¡
+C
+java:S1604?"(Make this anonymous inner class a lambda(«Á“¢øÿÿÿÿ
+p	java:S116&"VRename this field "SelectedImg" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡½Äžøÿÿÿÿ
+B
+java:S1659"'Declare "lieuResto" on a separate line.(‘±Þ¿úÿÿÿÿ
+A
+java:S1659 "&Declare "btnResto" on a separate line.(’•±¥ùÿÿÿÿ
+c
+java:S18581"H"getStringExtra" returns a string, there's no need to call "toString()".(ÔØ» þÿÿÿÿ
+c
+java:S18582"H"getStringExtra" returns a string, there's no need to call "toString()".(‚ÀÚ”ùÿÿÿÿ
+E	java:S106P"+Replace this use of System.out by a logger.(“çýÊÿÿÿÿÿ
+E	java:S106W"+Replace this use of System.out by a logger.(Â¤è„üÿÿÿÿ
+T
+java:S1874j">Remove this use of "startActivityForResult"; it is deprecated.(èõöº
+e
+java:S1874r"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Ó»×¶þÿÿÿÿ
+f
+java:S1874ƒ"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(™­²©ùÿÿÿÿ

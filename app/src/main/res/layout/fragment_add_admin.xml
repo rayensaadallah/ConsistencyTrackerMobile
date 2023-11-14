@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.AddFragment">
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/black_bg_gradient"
+        android:scaleType="centerCrop"
+
+
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/lobster"
+        android:text="Consistincy Tracker"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/imageview2"
+
+        app:layout_constraintHorizontal_bias="0.0"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <TextView
+        android:id="@+id/textadd"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Blog"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FBFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textapp"
+        />
+
+    <EditText
+        android:id="@+id/nameResto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:drawablePadding="13dp"
+        android:hint="Title of your Blog"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textapp"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/lieu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#CCCCCC"
+        android:drawableLeft="@drawable/ic_baseline_add_circle_24"
+        android:drawablePadding="13dp"
+        android:hint="Description"
+
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameResto"
+        app:layout_constraintWidth_percent=".8" />
+
+    <Button
+        android:id="@+id/btnResto"
+        android:layout_width="175dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="32dp"
+
+        android:text="Share an image of your blog"
+        android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lieu" />
+
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="172dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/btn_bg"
+
+
+        android:padding="14dp"
+
+
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgResto"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintWidth_percent=".4"
+        app:rippleColor="#00001E1E"
+        app:strokeColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imgResto"
+        android:layout_width="70dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/ic_baseline_restaurant_menu_24"
+       android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnResto" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

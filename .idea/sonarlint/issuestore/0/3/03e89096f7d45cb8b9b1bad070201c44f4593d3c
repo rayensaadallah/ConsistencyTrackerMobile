@@ -1,0 +1,18 @@
+
+f	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß‚ÛÎ
+C
+java:S1604@"(Make this anonymous inner class a lambda(¸Š®ªùÿÿÿÿ
+m
+java:S1450"WRemove the "database" field and declare it as a local variable in the relevant methods.(…§ÛÃ
+r
+java:S1450"WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(©¸£Ùÿÿÿÿÿ
+v
+java:S1450"[Remove the "recyclerView" field and declare it as a local variable in the relevant methods.(¿á© ýÿÿÿÿ
+p
+java:S1450"ZRemove the "restaurants" field and declare it as a local variable in the relevant methods.(ûû“å
+c
+java:S18586"H"getStringExtra" returns a string, there's no need to call "toString()".(õÓÞšüÿÿÿÿ
+7
+java:S11167"Remove this empty statement.(Åñ­õþÿÿÿÿ
+N
+java:S1068"8Remove this unused "mAppBarConfiguration" private field.(ÒËþØ

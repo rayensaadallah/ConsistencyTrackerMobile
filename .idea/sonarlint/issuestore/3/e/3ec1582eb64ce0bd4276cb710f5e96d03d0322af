@@ -1,0 +1,9 @@
+
+f	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øŽ£÷
+f	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß‚ÛÎ
+C
+java:S1604C"(Make this anonymous inner class a lambda(±â””ýÿÿÿÿ
+c
+java:S18586"H"getStringExtra" returns a string, there's no need to call "toString()".(ƒÛúºùÿÿÿÿ
+^
+java:S18587"H"getStringExtra" returns a string, there's no need to call "toString()".(§þ¶í

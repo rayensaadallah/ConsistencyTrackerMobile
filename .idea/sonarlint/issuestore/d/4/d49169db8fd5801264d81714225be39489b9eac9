@@ -1,0 +1,11 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùàÑüûÿÿÿÿ
+m
+java:S1450"WRemove the "database" field and declare it as a local variable in the relevant methods.(…§ÛÃ
+w
+java:S1450"\Remove the "mRecyclerView" field and declare it as a local variable in the relevant methods.(Òéıÿÿÿÿ
+r
+java:S1450"WRemove the "userList" field and declare it as a local variable in the relevant methods.(ùàÑüûÿÿÿÿ
+v
+java:S1450"[Remove the "usersAdapter" field and declare it as a local variable in the relevant methods.(ÄÜ±ÿÿÿÿÿ

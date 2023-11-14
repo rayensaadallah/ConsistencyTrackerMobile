@@ -1,0 +1,27 @@
+
+m
+java:S1104$"WMake currentUser a static final constant or non-public and provide accessors if needed.(á§ŠŠ
+j
+java:S1104$"TMake roleUser a static final constant or non-public and provide accessors if needed.(á§ŠŠ
+G
+java:S1444$"1Make this "public static currentUser" field final(á§ŠŠ
+D
+java:S1444$".Make this "public static roleUser" field final(á§ŠŠ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šú˜Ëùÿÿÿÿ
+I
+java:S1659!".Declare "edSignInPassword" on a separate line.(ƒäÄùÿÿÿÿ
+<
+java:S1659$"&Declare "roleUser" on a separate line.(á§ŠŠ
+H
+java:S11357"2Complete the task associated to this TODO comment.(˜±´Û
+A
+java:S1172>"+Remove this unused method parameter "view".(ØÚ„
+E	java:S106D"+Replace this use of System.out by a logger.(®µÓóıÿÿÿÿ
+g
+java:S5998'"LRefactor this repetition that can lead to a stack overflow for large inputs.(´ğ¤Œÿÿÿÿÿ
+Q
+java:S2696i"6Make the enclosing method "static" or remove this set.(ÂäÔçÿÿÿÿÿ
+H
+java:S1135g"2Complete the task associated to this TODO comment.(Äë›í
+A
+java:S1172u"+Remove this unused method parameter "view".(ÈãÁ•

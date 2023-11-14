@@ -1,0 +1,13 @@
+
+C
+java:S1604;"(Make this anonymous inner class a lambda(³š¡…şÿÿÿÿ
+C
+java:S1604E"(Make this anonymous inner class a lambda(Æ°Åøÿÿÿÿ
+@	java:S1069"+Replace this use of System.out by a logger.(‰îš‰
+E	java:S106J"+Replace this use of System.out by a logger.(»‰Ûåüÿÿÿÿ
+j	java:S116^"URename this field "btn_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à›£æ
+h	java:S116^"SRename this field "btn_edit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à›£æ
+@
+java:S1659]"%Declare "lieuRes" on a separate line.(‡ğ´ÿÿÿÿÿ
+<
+java:S1659^"&Declare "btn_edit" on a separate line.(à›£æ

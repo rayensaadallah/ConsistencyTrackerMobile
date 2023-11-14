@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.HomeUserActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <Button
+            android:id="@+id/btnlogoutuser"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_baseline_login_24"
+            android:backgroundTint="#E91E63"
+            android:padding="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/recyler_restaurant"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/nameUser"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.313" />
+
+        <TextView
+            android:id="@+id/nameUser"
+            android:layout_width="288dp"
+            android:layout_height="46dp"
+            android:layout_margin="6dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="27dp"
+            android:background="@drawable/ic_baseline_account_circle_24"
+            android:fontFamily="@font/lobster"
+            android:padding="10dp"
+            android:text="My name is :"
+            android:textColor="@color/black"
+
+
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+
+
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/recyler_restaurant"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyler_restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:scrollbars="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

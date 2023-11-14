@@ -1,0 +1,8 @@
+
+@	java:S106"+Replace this use of System.out by a logger.(«ÄÄ“
+^
+java:S1858"H"getStringExtra" returns a string, there's no need to call "toString()".(«ÄÄ“
+S
+java:S1117"=Rename "nameResto" which hides the field declared at line 13.(‡Ó‚ø
+^
+java:S1858"H"getStringExtra" returns a string, there's no need to call "toString()".(‡Ó‚ø

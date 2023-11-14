@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tn.esprit.restauapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RestauApp">
+        <activity
+            android:name=".ui.activities.MenuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.ScannerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.HomeUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.QrCodeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.UpdateRestaurantActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.WelcomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RestauApp.NoActionBar" />
+        <activity
+            android:name=".ui.activities.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.RegistrationActivity"
+            android:exported="true" />
+        <activity android:name=".ui.activities.HomeActivity" />
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

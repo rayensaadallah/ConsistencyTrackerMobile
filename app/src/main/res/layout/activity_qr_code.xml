@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.QrCodeActivity">
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/black_bg_gradient"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sandwich20"
+
+
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/lobster"
+        android:text="consistency tracker"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+
+        app:layout_constraintEnd_toEndOf="@id/imageview2"
+
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textscan"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Please Scan QrCode"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textapp" />
+
+    <Button
+        android:id="@+id/btnscanne"
+        android:layout_width="320dp"
+        android:layout_height="64dp"
+
+
+        android:layout_marginBottom="192dp"
+
+
+        android:background="@drawable/btn_bg"
+        android:padding="14dp"
+        android:text="Scan QRCode"
+        android:textAllCaps="false"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent=".4"
+        app:rippleColor="#00001E1E"
+        app:strokeColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imgQr"
+        android:layout_width="189dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnscanne"
+        app:layout_constraintEnd_toEndOf="@+id/imageview2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textscan"
+        app:layout_constraintVertical_bias="0.181"
+        app:srcCompat="@drawable/ic_baseline_qr_code_scanner_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

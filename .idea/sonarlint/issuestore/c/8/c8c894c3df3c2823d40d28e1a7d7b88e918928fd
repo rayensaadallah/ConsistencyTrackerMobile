@@ -1,0 +1,7 @@
+
+C
+java:S16046"(Make this anonymous inner class a lambda(ä¦­Ùùÿÿÿÿ
+@	java:S106?"+Replace this use of System.out by a logger.(‰îš‰
+f	java:S116Q"QRename this field "btn_qr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖË¼÷
+@
+java:S1659P"%Declare "lieuRes" on a separate line.(ž‡ð´ÿÿÿÿÿ
